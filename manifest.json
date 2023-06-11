@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Page Saver",
+  "version": "0.1.0",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/save.png",
+      "48": "icons/save.png",
+      "128": "icons/save.png"
+    }
+  },
+  "icons": {
+    "16": "icons/save.png",
+    "48": "icons/save.png",
+    "128": "icons/save.png"
+  }
+}
